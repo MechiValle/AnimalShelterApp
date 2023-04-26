@@ -7,7 +7,7 @@ const pets = ref(p)
 </script>
 
 <template>
-  <div class="container">
+  <div class="cards-container">
     <RouterLink :to="`/adopt/${pet.id}`" v-for="pet in pets" :key="pet.id" class="card">
       <img :src="pet.img">
       <div class="details">
@@ -20,14 +20,16 @@ const pets = ref(p)
 
 <style scoped>
 
-.container{
+.cards-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
   background-color: rgba(225,225,225,0.5);
   border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 .card{
   width: 310px;

@@ -14,6 +14,5 @@ import PetsContainer from '../components/PetsContainer.vue';
   align-content: center;
   justify-content: center;
   max-width: 1040px;
-  margin: 0 auto;
 }
 </style>

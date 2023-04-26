@@ -47,7 +47,6 @@ import Nav from "./components/Nav.vue";
 }
 
 header{
-  margin-bottom: 10px;
   display: flex;
   width: 1040px;
   flex-direction: column;

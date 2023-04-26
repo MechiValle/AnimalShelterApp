@@ -12,7 +12,7 @@ const pet = pets.find(p => p.id === parseInt(route.params.id))
 <template>
   <div class="fake-modal">
     <div class="modal-textbox">
-      <button class="close" @click="router.push(`/adopt/${pet.id}`)">X</button>
+      <button class="close" @click="router.push(`/adopt/${pet.id}`)">&#10005</button>
       <div class="text">
       <h1>Contact info</h1>
       <p> {{ pet.contact.phone }}</p>

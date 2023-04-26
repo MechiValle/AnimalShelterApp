@@ -10,33 +10,57 @@ const pet = pets.find(p => p.id === petId)
 </script>
 
 <template>
-  <div class="details-container">
-    <div class="details-text">
-      <h1>{{ pet.name }}</h1>
-    <h3>{{ pet.breed }}</h3>
-    <p><span class="prompt">Age: </span>{{ pet.details.age }}</p>
-    <p><span class="prompt">Weight:</span> {{ pet.details.weight }}</p>
-    <p><span class="prompt">Will it get bigger?:</span> {{ pet.details.willItGetBigger }}</p>
-    <p><span class="prompt">Does it get along with other pets?:</span> {{ pet.details.goodWithAnimals }}</p>
-    <p><span class="prompt">Does it get along with children?:</span> {{ pet.details.goodWithKids }}</p>
-
-    <button @click="router.push(`/adopt/${petId}/contact`)"><h2>Contact</h2></button>
+  <div class="card-container">
+    <RouterLink to="/" class="back">&#10005</RouterLink>
+      <div class="details-container">
+        <div class="details-text">
+           <h1>{{ pet.name }}</h1>
+           <h3>{{ pet.breed }}</h3>
+           <p><span class="prompt">Age: </span>{{ pet.details.age }}</p>
+           <p><span class="prompt">Weight:</span> {{ pet.details.weight }}</p>
+           <p><span class="prompt">Will it get bigger?:</span> {{ pet.details.willItGetBigger }}</p>
+          <p><span class="prompt">Does it get along with other pets?:</span> {{ pet.details.goodWithAnimals }}</p>
+          <p><span class="prompt">Does it get along with children?:</span> {{ pet.details.goodWithKids }}</p>
+          <button @click="router.push(`/adopt/${petId}/contact`)"><h2>Contact</h2></button>
       <RouterView />
-  </div>
+      </div>
   <img :src="pet.img">
   </div>
+    </div>
 </template>
 
 <style scoped>
-.details-container{
+.card-container{
   width: 900px;
   height: 500px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px;
+  align-items: inherit;
+}
+
+.back{
+  align-self: flex-end;
+  justify-self: flex-start;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-decoration: none;
+  background-color: #1C6758;
+  padding: 2px 8px;
+}
+
+.back:visited{
+  color:white;
+}
+
+.details-container{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .details-text{

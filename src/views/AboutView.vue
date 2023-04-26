@@ -21,7 +21,7 @@ We offer a wide variety of animals for adoption, including dogs, cats, and small
 <br>
 
 <div>
-Thank you for visiting our website and considering adopting a rescue pet. Together, we can make a difference in the lives of animals in need.
+You can find the source code at <a href="https://github.com/MechiValle/AnimalShelterApp" target="_blank">Github</a>.
 </div>
 </div>
 </div>
@@ -49,6 +49,12 @@ Thank you for visiting our website and considering adopting a rescue pet. Togeth
 
 .brand{
   font-weight: bold;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+
 }
 
 </style>

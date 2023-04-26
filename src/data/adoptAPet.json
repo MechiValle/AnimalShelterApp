@@ -1,0 +1,118 @@
+[{
+  "id": 1,
+  "img": "https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1637699216.4386497/robin-jonathan-deutsch-hu4o8mmiddc-unsplash.jpg",
+  "name": "Chaz",
+  "breed": "Border Collie",
+  "details": {
+    "age": 12,
+    "weight": "15 kg",
+    "willItGetBigger": "No",
+    "goodWithAnimals": "Yes",
+    "goodWithKids": "Yes"
+  }
+},
+{
+  "id": 2,
+  "img": "https://cdn.shopify.com/s/files/1/0435/0466/4732/files/persian_kitten_1_600x600.jpg?v=1656016799",
+  "name": "Spoopy",
+  "breed": "Persian",
+  "details": {
+    "age": 1,
+    "weight": "3 kg",
+    "willItGetBigger": "Slightly (4-5.5 kg)",
+    "goodWithAnimals": "Yes",
+    "goodWithKids": "Yes"
+  }
+},
+{
+  "id": 3,
+  "img": "https://www.keystonepuppies.com/wp-content/uploads/2022/03/Shadow-Boxer.jpg",
+  "name": "Ringo",
+  "breed": "Boxer",
+  "details": {
+    "age": 1,
+    "weight": "12 kg",
+    "willItGetBigger": "Yes (25-30 kg)",
+    "goodWithAnimals": "Yes",
+    "goodWithKids": "Absolutely"
+  }
+},
+{
+  "id": 4,
+  "img": "https://www.perfectdogbreeds.com/wp-content/uploads/2019/04/adorable-corgski-puppy-laying-on-table.jpg",
+  "name": "Waffle",
+  "breed": "Corgi-Siberian Mix",
+  "details": {
+    "age": 4,
+    "weight": "13 kg",
+    "willItGetBigger": "No",
+    "goodWithAnimals": "No",
+    "goodWithKids": "Yes"
+  }
+},
+{
+  "id": 5,
+  "img": "https://cdn.pixabay.com/photo/2022/02/12/15/27/cat-7009190_960_720.jpg",
+  "name": "Lucy",
+  "breed": "Calico",
+  "details": {
+    "age": 3,
+    "weight": "4.5 kg",
+    "willItGetBigger": "No",
+    "goodWithAnimals": "No",
+    "goodWithKids": "No"
+  }
+},
+{
+  "id": 6,
+  "img": "https://blog.21stessentialpet.com/wp-content/uploads/2019/04/4-Reasons-to-Love-Mutts.png",
+  "name": "Avocado Toast",
+  "breed": "Mutt",
+  "details": {
+    "age": 10,
+    "weight": "20 kg",
+    "willItGetBigger": "No",
+    "goodWithAnimals": "No",
+    "goodWithKids": "No"
+  }
+},
+{
+  "id": 7,
+  "img": "https://www.thesprucepets.com/thmb/D7ZYblr0r0dq4RtxpS8U9ZwNrCg=/6277x0/filters:no_upscale():strip_icc()/all-about-tabby-cats-4145476-hero-d6eb349cbacb4c7193007b49ead874ff.jpg",
+  "name": "Cheddar",
+  "breed": "Tabby",
+  "details": {
+    "age": 7,
+    "weight": "5 kg",
+    "willItGetBigger": "No (we hope so)",
+    "goodWithAnimals": "Yes",
+    "goodWithKids": "Absolutely"
+  }
+},
+{
+  "id": 8,
+  "img": "https://dogtime.com/assets/uploads/gallery/mutt-dog-breed-pictures/puppy-5.jpg",
+  "name": "Bandit",
+  "breed": "Mutt",
+  "details": {
+    "age": 1,
+    "weight": "10 kg",
+    "willItGetBigger": "Yes (22-25 kg)",
+    "goodWithAnimals": "Yes",
+    "goodWithKids": "Absolutely"
+  }
+},
+{
+  "id": 9,
+  "img": "https://www.rd.com/wp-content/uploads/2021/05/GettyImages-1286283054.jpg",
+  "name": "Chaos",
+  "breed": "Orange Tabby",
+  "details": {
+    "age": 3,
+    "weight": "4 kg",
+    "willItGetBigger": "No",
+    "goodWithAnimals": "No",
+    "goodWithKids": "Yes"
+  }
+}
+]

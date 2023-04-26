@@ -10,7 +10,7 @@ import Nav from "./components/Nav.vue";
   <div class="container">
     <header>
       <RouterLink :to="`/`"><h1>Lucky Paws</h1></RouterLink>
-    <h2>Adopt a rescued friend!</h2>
+    <h3>Adopt a rescued friend!</h3>
       <Nav />
     </header>
     <RouterView />
@@ -39,20 +39,24 @@ import Nav from "./components/Nav.vue";
   min-height: 970px;
   margin: 0 auto;
   background-color: #1C6758;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 header{
   margin-bottom: 10px;
   display: flex;
+  width: 1040px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: white;
 }
 
-header h2{
+header h3{
   padding: 0;
-
 }
 
 header h1{

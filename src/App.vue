@@ -9,7 +9,7 @@ import Nav from "./components/Nav.vue";
 <template>
   <div class="container">
     <header>
-    <h1>Lucky Paws</h1>
+      <RouterLink :to="`/`"><h1>Lucky Paws</h1></RouterLink>
     <h2>Adopt a rescued friend!</h2>
       <Nav />
     </header>
@@ -65,5 +65,10 @@ header h1{
   justify-content: center;
   align-items: center;
   height: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 </style>

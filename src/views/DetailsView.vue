@@ -74,7 +74,7 @@ const pet = pets.find(p => p.id === petId)
   display: flex;
   font-family: "Meows";
   font-size: 3rem;
-  height: 70px;
+  height: 60px;
 }
 .details-text h3{
   margin-bottom: 30px;

@@ -9,6 +9,10 @@
     "willItGetBigger": "No",
     "goodWithAnimals": "Yes",
     "goodWithKids": "Yes"
+  },
+  "contact": {
+    "name": "Jeff",
+    "phone": "202-555-0151"
   }
 },
 {
@@ -22,6 +26,10 @@
     "willItGetBigger": "Slightly (4-5.5 kg)",
     "goodWithAnimals": "Yes",
     "goodWithKids": "Yes"
+  },
+  "contact": {
+    "name": "Lucy",
+    "phone": "202-555-0105"
   }
 },
 {
@@ -35,6 +43,10 @@
     "willItGetBigger": "Yes (25-30 kg)",
     "goodWithAnimals": "Yes",
     "goodWithKids": "Absolutely"
+  },
+  "contact": {
+    "name": "Jerome",
+    "phone": "202-555-0142"
   }
 },
 {
@@ -48,6 +60,10 @@
     "willItGetBigger": "No",
     "goodWithAnimals": "Only with dogs",
     "goodWithKids": "Yes"
+  },
+  "contact": {
+    "name": "Wyatt",
+    "phone": "202-555-0157"
   }
 },
 {
@@ -61,6 +77,10 @@
     "willItGetBigger": "No",
     "goodWithAnimals": "No",
     "goodWithKids": "No"
+  },
+  "contact": {
+    "name": "Rosalie",
+    "phone": "202-555-0149"
   }
 },
 {
@@ -74,6 +94,10 @@
     "willItGetBigger": "No",
     "goodWithAnimals": "No",
     "goodWithKids": "No"
+  },
+  "contact": {
+    "name": "Butch",
+    "phone": "202-555-0114"
   }
 },
 {
@@ -87,6 +111,10 @@
     "willItGetBigger": "No (we hope so)",
     "goodWithAnimals": "Yes",
     "goodWithKids": "Absolutely"
+  },
+  "contact": {
+    "name": "Olivia",
+    "phone": "626-555-0867"
   }
 },
 {
@@ -100,6 +128,10 @@
     "willItGetBigger": "Yes (22-25 kg)",
     "goodWithAnimals": "Yes",
     "goodWithKids": "Absolutely"
+  },
+  "contact": {
+    "name": "Melody",
+    "phone": "626-555-0122"
   }
 },
 {
@@ -113,6 +145,10 @@
     "willItGetBigger": "No",
     "goodWithAnimals": "No",
     "goodWithKids": "Yes"
+  },
+  "contact": {
+    "name": "Rick",
+    "phone": "626-555-0605"
   }
 }
 ]

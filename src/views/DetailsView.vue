@@ -1,9 +1,12 @@
 <script setup>
 import pets from "../data/adoptAPet.json"
-import { useRoute } from "vue-router"
+import { useRoute, RouterView, useRouter } from "vue-router"
+import ContactView from "../views/ContactView.vue"
 
 const route = useRoute()
-const pet = pets.find(p => p.id === parseInt(route.params.id))
+const router = useRouter()
+const petId = parseInt(route.params.id)
+const pet = pets.find(p => p.id === petId)
 </script>
 
 <template>
@@ -17,8 +20,8 @@ const pet = pets.find(p => p.id === parseInt(route.params.id))
     <p><span class="prompt">Does it get along with other pets?:</span> {{ pet.details.goodWithAnimals }}</p>
     <p><span class="prompt">Does it get along with children?:</span> {{ pet.details.goodWithKids }}</p>
 
-    <button>Contact</button>
-
+    <button @click="router.push(`/adopt/${petId}/contact`)"><h2>Contact</h2></button>
+      <RouterView />
   </div>
   <img :src="pet.img">
   </div>
@@ -48,13 +51,11 @@ const pet = pets.find(p => p.id === parseInt(route.params.id))
   font-family: "Meows";
   font-size: 3rem;
   height: 70px;
-  margin-bottom: 3px;
 }
 .details-text h3{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: bold;
   color: rgba(0,0,0,0.5)
-
 }
 
 .details-text .prompt{
@@ -62,8 +63,15 @@ const pet = pets.find(p => p.id === parseInt(route.params.id))
 }
 
 .details-text button{
-  margin-top: 45px;
   font-weight: bold;
+  background-color: #1C6758;
+  align-self: center;
+  border: none;
+  margin: none;
+  width: 100px;
+  height: 50px;
+  color: #FAFAFA;
+  margin-top: 20px;
 }
 
 img{
